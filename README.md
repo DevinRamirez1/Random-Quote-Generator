@@ -22,3 +22,5 @@ setInterval()
 
 ## Authors and Acknowledgement
 Team Treehouse Full Stack Javascript Techdegree
+
+I am aiming for an exceeds expectations grade and would like the opportunity to get that.
