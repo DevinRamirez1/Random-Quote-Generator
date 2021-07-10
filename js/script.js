@@ -68,8 +68,9 @@ function getRandomQuote(){
 };
 
 //random background color function
+//found random color code at https://dev.to/akhil_001/generating-random-color-with-single-line-of-js-code-fhj
 function randomBgColor() {
-  var bgColor = '#'+Math.floor(Math.random()*16777215).toString(16);
+  var bgColor = '#'+Math.floor(Math.random()*16777215).toString(16); 
   console.log(bgColor);
 
   document.body.style.background = bgColor;
