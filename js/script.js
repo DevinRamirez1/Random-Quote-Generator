@@ -69,16 +69,13 @@ function getRandomQuote(){
 
 //random background color function
 function randomBgColor() {
-  var redValue = Math.floor(Math.random() * 256);
-  var greenValue = Math.floor(Math.random() * 256);
-  var blueValue = Math.floor(Math.random() * 256);
-  var bgColor = "rgb(" + redValue + "," + greenValue + "," + blueValue + ")";
+  var bgColor = '#'+Math.floor(Math.random()*16777215).toString(16);
   console.log(bgColor);
 
   document.body.style.background = bgColor;
 };
 
-//Function to put quotes into html
+//Function to put quotes into html 
 
 function printQuote() {
   let quoteObject = getRandomQuote();
